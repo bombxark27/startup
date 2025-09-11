@@ -1,4 +1,4 @@
-# Testing
+# Solitaire
 
 [My Notes](notes.md)
 
