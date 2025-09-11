@@ -42,10 +42,10 @@ The basic idea for the Poker application is a page to login, play, and view lead
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Four different views, login/register controls, play, scoreboard, and about.
+- **HTML** - Four different views, login/register rules, play, scoreboard, and about.
 - **CSS** - Complementary color scheme, responsive design, button highlighting during play.
 - **React** - Single page application with routing between views, reactive user controls, and state hooks.
-- **Service** - Endpoints for authentication, storing/retrieving scores. Third party call to get inspirational quotes.
+- **Service** - Endpoints for authentication, storing/retrieving scores. Third party call to get summaries of popular poker matches.
 - **DB/Login** - Stores authentication and scores.
 - **WebSocket** - Broadcast user's game notifications.
 
