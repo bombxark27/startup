@@ -4,6 +4,8 @@
 
 Poker is a family of card games, centered on betting, hand rankings, and a mix of skill, strategy, and chance. Players are dealt cards from a standard deck and place bets into a common pot based on how strong they believe their hand is (or how well they can bluff). Variants like Texas Hold’em and Omaha are globally popular, with organized tournaments and cash games that reward both strategic play and psychological reading of opponents.
 
+I am going to build a peer-to-peer multiplayer web application modeled after Poker, where players can connect, receive cards, place bets, and determine winners in real time.
+
 
 
 > [!NOTE]
@@ -41,9 +43,11 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+- Login, logout, and register
+- See high scores (total earnings)
+- Receive notifications for other player's achievements
+- See a description of the app
+- View a list of the best Poker players
 
 ### Technologies
 
