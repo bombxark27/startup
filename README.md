@@ -21,7 +21,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [ ] Proper use of Markdown
 - [ ] A concise and compelling elevator pitch
 - [ ] Description of key features
-- [ ] Description of how you will use each technology
+- [x] Description of how you will use each technology
 - [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
 
 ### Elevator pitch
@@ -51,12 +51,12 @@ sequenceDiagram
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - Four different views, login/register controls, play, scoreboard, and about.
+- **CSS** - Complementary color scheme, responsive design, button highlighting during play.
+- **React** - Single page application with routing between views, reactive user controls, and state hooks.
+- **Service** - Endpoints for authentication, storing/retrieving scores. Third party call to get inspirational quotes.
+- **DB/Login** - Stores authentication and scores.
+- **WebSocket** - Broadcast user's game notifications.
 
 ## 🚀 AWS deliverable
 
