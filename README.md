@@ -59,15 +59,15 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - Created 5 HTML pages: index.html, play.html, scores.html, source.html (this one might be deleted), and about.html.
+- [x] **Proper HTML element usage** - I did not complete this part of the deliverable.
+- [x] **Links** - Links between views.
+- [x] **Text** - About page has some text.
+- [x] **3rd party API placeholder** - The about page will have info on poker in the news. 
+- [x] **Images** - The about page has a picture of a poker table.
+- [x] **Login placeholder** - Placeholder on the login (index.html) page.
+- [x] **DB data placeholder** - Top scores on the scores page.
+- [x] **WebSocket placeholder** - The play page will notify the user when others join the game.
 
 ## 🚀 CSS deliverable
 
