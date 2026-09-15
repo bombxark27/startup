@@ -1,4 +1,4 @@
-# Ultimate Frisbee Score/Stats App
+# Ultimate Frisbee Game Tracker
 
 
 [My Notes](notes.md)
@@ -13,7 +13,8 @@ This application is a web-based ultimate frisbee game tracker that allows player
 
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Ultimate Frisbee Game Tracker is a real-time web application designed to make keeping track of ultimate frisbee games easier and more engaging. Players can create or join a game, track the score and individual statistics, and watch updates happen instantly for everyone connected to the game. Instead of relying on a notebook, scoreboard, or one person trying to remember every play, the app puts the game’s score and statistics in one place while building a history of each player’s performance.
+
 
 ### Design
 
