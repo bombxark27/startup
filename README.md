@@ -44,7 +44,7 @@ I am going to use the required technologies in the following ways.
 - **HTML** - Game/field structure
 - **CSS** - Frisbee field, scoreboard, animations
 - **React** - Game screen, player list, stats, login
-- **Service** - Create game, join game, add point, record turnover, retrieve stats
+- **Service** - Create game, join game, add point, record turnover, retrieve stats. Third party call for weather conditions
 - **DB/Login** - Users, teams, players, games, scores, statistics
 - **WebSocket** - Every time somebody records a point/turnover, everyone watching the game gets the update
 
