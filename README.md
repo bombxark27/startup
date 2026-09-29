@@ -78,7 +78,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **HTML pages** - Four different pages. One for each view. index.html, gamecast.html, stats.html, and about.html
 - [x] **Proper HTML element usage** - I used main, header, footer, span, div, a, table, and many more.
 - [x] **Links** - Links between pages.
-- [ ] **Text** - I did not complete this part of the deliverable.
+- [x] **Text** - About page has some text.
 - [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
 - [ ] **Images** - I did not complete this part of the deliverable.
 - [ ] **Login placeholder** - I did not complete this part of the deliverable.
