@@ -83,7 +83,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Images** - Image is displayed on the about page.
 - [x] **Login placeholder** - Placeholder for auth on the login page.
 - [x] **DB data placeholder** - Player stats displayed on stats page.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **WebSocket placeholder** - Live game updates are displayed on gamecast page.
 
 ## 🚀 CSS deliverable
 
