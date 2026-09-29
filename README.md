@@ -77,7 +77,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
 - [x] **HTML pages** - Four different pages. One for each view. index.html, gamecast.html, stats.html, and about.html
 - [x] **Proper HTML element usage** - I used main, header, footer, span, div, a, table, and many more.
-- [ ] **Links** - I did not complete this part of the deliverable.
+- [x] **Links** - Links between pages.
 - [ ] **Text** - I did not complete this part of the deliverable.
 - [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
 - [ ] **Images** - I did not complete this part of the deliverable.
