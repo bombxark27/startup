@@ -85,7 +85,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **DB data placeholder** - Player stats displayed on stats page.
 - [x] **WebSocket placeholder** - Live game updates are displayed on gamecast page.
 
-<!-- ## 🚀 CSS deliverable
+ ## 🚀 CSS deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
@@ -97,6 +97,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [ ] **Use of a imported font** - I did not complete this part of the deliverable.
 - [ ] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I did not complete this part of the deliverable.
 
+<!--
 ## 🚀 React part 1: Routing deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
