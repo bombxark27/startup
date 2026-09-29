@@ -82,7 +82,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **3rd party API placeholder** - Gamecast page has a placeholer for weather API.
 - [x] **Images** - Image is displayed on the about page.
 - [x] **Login placeholder** - Placeholder for auth on the login page.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
+- [x] **DB data placeholder** - Player stats displayed on stats page.
 - [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
 
 ## 🚀 CSS deliverable
