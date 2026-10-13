@@ -3,7 +3,10 @@
 :root {
     /* Primary colors */
     --navy-950: #142B4A;
+    --navy-900: #1B3A5B;
     --navy-800: #244D78;
+    --blue-700: #356A9A;
+    --navy-700: #4A6B9C;
 
     /* Accent colors */
     --ice-blue: #DCEAF7;
@@ -87,7 +90,11 @@ nav a:focus-visible {
 
 
 a {
-    color: var(--muted);
+    color: var(--navy-700);
+}
+
+a:hover {
+    color: var(--navy-950);
 }
 
 footer {
@@ -163,3 +170,46 @@ form div {
     margin-bottom: 1rem;
 }
 
+
+input {
+    width: 100%;
+    min-width: 0;
+    padding: 0.8rem 0.9rem;
+    border: 1px solid #c8d5cc;
+    border-radius: 0.6rem;
+    background: #fbfdfb;
+    color: var(--ink);
+    font: inherit;
+}
+
+input:focus {
+    outline: 3px solid rgba(45, 115, 84, 0.2);
+    border-color: var(--navy-700);
+}
+
+button {
+    border: 0;
+    border-radius: 0.6rem;
+    padding: 0.75rem 1rem;
+    margin: 0.25rem 0.35rem 0.25rem 0;
+    background: var(--navy-700);
+    color: white;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 160ms ease, transform 160ms ease;
+}
+
+button:hover {
+    background: var(--navy-900);
+    transform: translateY(-1px);
+}
+
+button:focus-visible {
+    outline: 3px solid var(--gold);
+    outline-offset: 3px;
+}
+
+button:active {
+    transform: translateY(0);
+}
