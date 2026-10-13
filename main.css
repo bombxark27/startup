@@ -78,6 +78,13 @@ nav a {
     transition: background-color 160ms ease, color 160ms ease;
 }
 
+nav a:hover,
+nav a:focus-visible {
+    background: var(--navy-950);
+    color: white;
+    outline: none;
+}
+
 
 a {
     color: var(--muted);
