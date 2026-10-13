@@ -5,12 +5,20 @@
     --navy-950: #142B4A;
     --navy-900: #1B3A5B;
     --navy-800: #244D78;
-    --blue-700: #356A9A;
     --navy-700: #4A6B9C;
+    --navy-50: #F0F5FA;
+
+    --blue-700: #356A9A;
 
     /* Accent colors */
     --ice-blue: #DCEAF7;
     --gold: #F3C969;
+
+    /* Ultimate frisbee field colors */
+    --field-green: #72AD79;
+    --field-endzone: #D8EDCE;
+    --field-line: #FFFFFF;
+    --field-text: #142B4A;
 
     /* Backgrounds and text */
     --page: #F5F7FA;
@@ -172,6 +180,44 @@ main > form,
 main > section p:last-child,
 main > form p:last-child {
     margin-bottom: 0;
+}
+
+main table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 0.75rem;
+    background: white;
+}
+
+main th,
+main td {
+    padding: 0.8rem 1rem;
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+}
+
+main th:last-child,
+main td:last-child {
+    border-right: 0;
+}
+
+main tr:last-child td {
+    border-bottom: 0;
+}
+
+main th {
+    background: var(--navy-900);
+    color: white;
+    font-weight: 700;
+}
+
+main tbody tr:nth-child(even),
+main table tr:nth-child(even) {
+    background: var(--navy-50);
 }
 
 form {
