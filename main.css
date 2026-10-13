@@ -64,6 +64,20 @@ nav menu {
     padding: 0;
 }
 
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 0.7rem 1rem;
+    color: var(--ice-blue);
+    text-decoration: none;
+    border-radius: 0.6rem 0.6rem 0 0;
+    font-weight: 600;
+    transition: background-color 160ms ease, color 160ms ease;
+}
+
 
 a {
     color: var(--muted);
