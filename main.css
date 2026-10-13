@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-:root{ 
+:root {
+    /* Primary colors */
+    --navy-950: #142B4A;
+    --navy-800: #244D78;
 
+    /* Accent colors */
+    --ice-blue: #DCEAF7;
+    --gold: #F3C969;
+
+    /* Backgrounds and text */
+    --page: #F5F7FA;
+    --surface: #FFFFFF;
+    --ink: #182638;
+    --muted: #64748B;
+    --line: #D8E1EB;
 }
 
 * {
@@ -15,17 +28,17 @@ html {
 
 body {
   margin: 0;
-  background: white;
-  color: black;
+  background: var(--surface);
+  color: var(--ink);
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
 }
 
 header {
-    background: navy;
+    background: var(--navy-800);
     color: white;
     padding: 1rem clamp(1rem, 4vw, 3.5rem) 0;
-    border-bottom: 4px solid silver;
+    border-bottom: 4px solid var(--ice-blue);
 }
 
 header h1 {
@@ -53,12 +66,12 @@ nav menu {
 
 
 a {
-    color: gray;
+    color: var(--muted);
 }
 
 footer {
-    background: navy;
-    color: #dcebe2;
+    background: var(--navy-800);
+    color: var(--ice-blue);
     padding: 1.4rem max(1rem, calc((100% - 1200px) / 2));
     margin-top: 3rem;
 
