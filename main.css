@@ -147,3 +147,19 @@ main > form,
     box-shadow: var(--shadow);
 }
 
+main > section p:last-child,
+main > form p:last-child {
+    margin-bottom: 0;
+}
+
+form {
+    max-width: 460px;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin-bottom: 1rem;
+}
+
