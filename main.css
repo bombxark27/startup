@@ -104,3 +104,34 @@ main {
     min-height: 55vh;
 }
 
+main > h1,
+main > h2 {
+    margin: 0 0 1.25rem;
+    color: var(--navy-950);
+    letter-spacing: -0.035em;
+    line-height: 1.2;
+}
+
+main > h1 {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+}
+
+main > h2 {
+    font-size: clamp(1.6rem, 3vw, 2.3rem);
+}
+
+h3 {
+    margin: 0 0 0.8rem;
+    color: var(--navy-900);
+    font-size: 1.15rem;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--line);
+}
+
