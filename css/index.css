@@ -1,0 +1,28 @@
+body:has(form) main {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+    align-items: center;
+    gap: clamp(1.5rem, 5vw, 4rem);
+}
+
+body:has(form) main > h1 {
+    margin: 0;
+    max-width: 14ch;
+}
+
+body:has(form) form {
+    width: 100%;
+    max-width: none;
+}
+
+@media (max-width: 760px) {
+
+    body:has(form) main {
+            grid-template-columns: 1fr;
+            gap: 1.25rem;
+    }
+
+    body:has(form) main > h1 {
+            max-width: 18ch;
+    }
+}
