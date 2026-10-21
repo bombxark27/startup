@@ -1,4 +1,4 @@
-# Ultimate Frisbee Game Tracker
+# DiscTrack
 
 
 [My Notes](notes.md)
@@ -13,7 +13,7 @@ This application is a web-based ultimate frisbee game tracker that allows player
 
 ### Elevator pitch
 
-Ultimate Frisbee Game Tracker is a real-time web application designed to make keeping track of ultimate frisbee games easier and more engaging. Players can create or join a game, track the score and individual statistics, and watch updates happen instantly for everyone connected to the game. Instead of relying on a notebook, scoreboard, or one person trying to remember every play, the app puts the game’s score and statistics in one place while building a history of each player’s performance.
+DiscTrack is a real-time web application designed to make keeping track of ultimate frisbee games easier and more engaging. Players can create or join a game, track the score and individual statistics, and watch updates happen instantly for everyone connected to the game. Instead of relying on a notebook, scoreboard, or one person trying to remember every play, the app puts the game’s score and statistics in one place while building a history of each player’s performance.
 
 
 ### Design
@@ -97,7 +97,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Use of a imported font** - Inter from Google Fonts.
 - [x] **Use of different types of selectors including element, class, ID, and pseudo selectors** - Element selectors, class selectors, ID selectors, and pseudo-selectors such as :hover.
 
-<!--
+
 ## 🚀 React part 1: Routing deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
@@ -107,6 +107,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [ ] **Components** - I did not complete this part of the deliverable.
 - [ ] **Router** - I did not complete this part of the deliverable.
 
+<!--
 ## 🚀 React part 2: Reactivity deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
