@@ -10,18 +10,12 @@ export function Login() {
       <form method="get" action="/gamecast">
         <div>
           <span>@</span>
-          <input
-            type="email"
-            placeholder="your@email.com"
-          />
+          <input type="email" placeholder="your@email.com" />
         </div>
 
         <div>
           <span>🔒</span>
-          <input
-            type="password"
-            placeholder="password"
-          />
+          <input type="password" placeholder="password" />
         </div>
 
         <button type="submit">Login</button>

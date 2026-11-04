@@ -22,3 +22,10 @@
     color: #42544a;
     font-size: 1.05rem;
 }
+
+.about-page .row p {
+    max-width: 75ch;
+    margin: 1.25rem auto;
+    color: #42544a;
+    font-size: 1.05rem;
+}

@@ -1,8 +1,11 @@
+
 .auth-layout {
     display: grid;
     grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
     align-items: center;
     gap: clamp(1.5rem, 5vw, 4rem);
+    width: min(1200px, calc(100% - 2rem));
+    margin: 2rem auto;
 }
 
 .auth-layout > h1 {

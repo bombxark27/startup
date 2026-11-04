@@ -1,3 +1,7 @@
-body:has(table) main > section table:not(:has(th[rowspan])) tr:hover {
-  background: var(--blue-100);
+.stats-page section table tbody tr:hover {
+    background: var(--blue-100);
+}
+
+.stats-page section table tbody tr:hover td {
+    background: transparent;
 }
