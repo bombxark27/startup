@@ -36,12 +36,20 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+.body {
+  display: flex;
+  flex-direction: column;
+  min-width: 375px;
+
   margin: 0;
   background: var(--surface);
   color: var(--ink);
   font-family: 'Inter', sans-serif;
   line-height: 1.6;
+}
+
+body {
+  margin: 0;
 }
 
 header {
