@@ -2,8 +2,15 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
 
+import { BrowserRouter, NavLink, Route, Routes } from 'react-router-dom';
+import { Login } from './login/login';
+import { Gamecast } from './gamecast/gamecast';
+import { Stats } from './stats/stats';
+import { About } from './about/about';
+
 export default function App() {
   return (
+    <BrowserRouter>
     <div className="body">
       <header className="container-fluid">
         <nav className="navbar navbar-dark">
@@ -46,5 +53,6 @@ export default function App() {
         </div>
       </footer>
     </div>
+    </BrowserRouter>
   );
 }
