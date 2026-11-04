@@ -4,13 +4,13 @@ import './app.css';
 
 export default function App() {
   return (
-    <div className="body bg-dark text-light">
+    <div className="body">
       <header className="container-fluid">
-        <nav className="navbar fixed-top navbar-dark">
+        <nav className="navbar navbar-dark">
           <div className="navbar-brand">
-            Simon<sup>&reg;</sup>
+            DiscTrack<sup>&reg;</sup>
           </div>
-          <menu className="navbar-nav">
+          <menu className="navbar-nav flex-row gap-4">
             <li className="nav-item">
               <a className="nav-link" href="index.html">
                 Home
@@ -37,12 +37,12 @@ export default function App() {
 
       <main>App components go here</main>
 
-      <footer className="bg-dark text-white-50">
-        <div className="container-fluid">
-          <span className="text-reset">Author Name(s)</span>
-          <a className="text-reset" href="https://github.com/webprogramming260/simon-react">
-            Source
-          </a>
+      <footer>
+        <div className="container-fluid d-flex justify-content-between">
+            <span className="text-reset">Shan Leung-Choi</span>
+            <a className="text-reset" href="https://github.com/bombxark27/startup">
+                Source
+            </a>
         </div>
       </footer>
     </div>

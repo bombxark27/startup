@@ -39,6 +39,7 @@ html {
 .body {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   min-width: 375px;
 
   margin: 0;
@@ -116,7 +117,7 @@ footer {
     background: var(--navy-800);
     color: var(--ice-blue);
     padding: 1.4rem max(1rem, calc((100% - 1200px) / 2));
-    margin-top: 3rem;
+    margin-top: 0;
 
 }
 
@@ -136,9 +137,9 @@ footer a:hover {
 }
 
 main {
-    width: min(1200px, calc(100% - 2rem));
-    margin: 2rem auto 3rem;
-    min-height: 55vh;
+  width: min(1200px, calc(100% - 2rem));
+  margin: 2rem auto;
+  flex: 1;
 }
 
 main > h1,
