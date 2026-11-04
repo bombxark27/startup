@@ -40,7 +40,7 @@ html {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  min-width: 375px;
+  min-width: 320px;
 
   margin: 0;
   background: var(--surface);
@@ -130,6 +130,11 @@ footer a {
     margin-top: 0.25rem;
     color: var(--gold);
     font-weight: 700;
+}
+
+footer .container-fluid {
+    max-width: 1200px;
+    padding: 0;
 }
 
 footer a:hover {
