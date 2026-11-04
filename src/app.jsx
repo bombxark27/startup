@@ -34,7 +34,13 @@ export default function App() {
         </nav>
       </header>
 
-      <main>App components go here</main>
+      <Routes>
+        <Route path='/' element={<Login />} exact />
+        <Route path='/gamecast' element={<Gamecast />} />
+        <Route path='/stats' element={<Stats />} />
+        <Route path='/about' element={<About />} />
+        <Route path='*' element={<NotFound />} />
+      </Routes>
 
       <footer>
         <div className="container-fluid d-flex justify-content-between">
@@ -47,4 +53,8 @@ export default function App() {
     </div>
     </BrowserRouter>
   );
+}
+
+function NotFound() {
+  return <main className="container-fluid bg-secondary text-center">404: Return to sender. Address unknown.</main>;
 }
