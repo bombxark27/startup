@@ -313,6 +313,70 @@ button:active {
     }
 }
 
+.site-header {
+    background: var(--navy-800);
+    color: white;
+    padding: 1rem clamp(1rem, 4vw, 3.5rem) 0;
+    border-bottom: 4px solid var(--ice-blue);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-header h1 {
+    margin: 0;
+    padding: 0.25rem 0 0.75rem;
+    font-size: clamp(1.35rem, 2.5vw, 2rem);
+    line-height: 1.25;
+    letter-spacing: -0.04em;
+}
+
+.site-header nav {
+    width: 100%;
+    margin-top: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.site-header nav menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header nav li {
+    margin: 0;
+}
+
+.site-header nav a {
+    display: block;
+    padding: 0.7rem 1rem;
+    color: var(--ice-blue);
+    text-decoration: none;
+    border-radius: 0.6rem 0.6rem 0 0;
+    font-weight: 600;
+    transition: background-color 160ms ease, color 160ms ease;
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus-visible {
+    background: var(--navy-950);
+    color: white;
+}
+
+.site-header nav a.active {
+    color: white;
+}
+
+.site-header nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 0.5rem;
+}
+
 @media (max-width: 420px) {
     nav menu {
         gap: 0.1rem;

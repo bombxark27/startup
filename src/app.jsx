@@ -13,36 +13,30 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="body">
-        <header className="container-fluid">
-          <nav className="navbar navbar-dark">
-            <div className="navbar-brand">
-              <h1>DiscTrack</h1>
-            </div>
+        
+    <header className="site-header">
+    <div className="header-content">
+        <h1>DiscTrack</h1>
 
-            <menu className="navbar-nav flex-row gap-4">
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/">
-                  Login
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/gamecast">
-                  Gamecast
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/stats">
-                  Stats
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/about">
-                  About
-                </NavLink>
-              </li>
-            </menu>
-          </nav>
-        </header>
+        <nav>
+        <menu>
+            <li>
+            <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
+            <NavLink to="/gamecast">Gamecast</NavLink>
+            </li>
+            <li>
+            <NavLink to="/stats">Stats</NavLink>
+            </li>
+            <li>
+            <NavLink to="/about">About</NavLink>
+            </li>
+        </menu>
+        </nav>
+    </div>
+    </header>
+
 
         <Routes>
           <Route path="/" element={<Login />} />
