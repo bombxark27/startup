@@ -102,10 +102,10 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **Bundled using Vite** - I did not complete this part of the deliverable.
-- [ ] **Components** - I did not complete this part of the deliverable.
-- [ ] **Router** - I did not complete this part of the deliverable.
+- [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
+- [x] **Bundled using Vite** - I installed Vite and configured my project to run as a React application. I use npm run dev to start the development server, and Vite handles my JSX and CSS files.
+- [x] **Components** - I converted my original HTML pages into React components. I created separate components for Login, Gamecast, Stats, and About, each with its own CSS file. The main App component handles the shared header, navigation, and footer.
+- [x] **Router** - I used React Router to connect all my components. I set up routes for Login, Gamecast, Stats, and About and used NavLink for the navigation bar. This allows users to switch between pages without reloading the website.
 
 <!--
 ## 🚀 React part 2: Reactivity deliverable
